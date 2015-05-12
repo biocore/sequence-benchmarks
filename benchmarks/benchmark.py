@@ -11,5 +11,5 @@ class Benchmark(dict):
         self[name] = get_ipython().magic("%%timeit -o %s()" % name).best
         return func
 
-    def as_series(self):
-        return pd.Series(self, name=self.category)
+    def record(self, fp):
+        return pd.concat([pd.Series(self, name=self.category)], axis=1).to_csv(fp)
