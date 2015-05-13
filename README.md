@@ -1,4 +1,4 @@
 Comparison of different Biological Sequence Objects in Python
 -------------------------------------------------------------
 
-todo
+See [initial benchmark results here](https://github.com/biocore/sequence-benchmarks/blob/master/benchmarks/index.ipynb).
