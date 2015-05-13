@@ -1,5 +1,16 @@
 ,scikit-bio 0.2.3
-degap_all,0.0789078235626
-object_creation,9.64420080185e-05
-object_creation_validate,0.00751836061478
-reverse_complement,0.0167372703552
+degap_all,0.388180971146
+expand_degenerates,0.274964094162
+filter_fasta_to_no_gaps,0.000502989053726
+filter_invalid_seqs,0.0394595146179
+find_motif_in_gapped,3.16006278992
+gc_content,0.0436985969543
+kmer_count_25,3.5256960392
+kmer_count_5,3.51686787605
+object_creation,0.000485388040543
+object_creation_validate,0.0376072883606
+read_fasta_file,0.595741033554
+reverse_complement,0.0851101160049
+search_for_motif,0.000249905824661
+translate,1.18723988533
+validate_chars,0.0385907173157
