@@ -7,3 +7,11 @@ gapped_sequences = [(s.id, str(s)) for s in SequenceCollection.read(get_template
 sequences = [(s.id, str(s)) for s in SequenceCollection.read(get_reference_sequences())][:500]
 
 motif_1 = "GGTGCAAGCCGGTGGAAACA"
+
+def pairwise(l):
+    res = []
+    i = iter(l)
+    for a, b in zip(i, i):
+        s = min(len(a), len(b))
+        res.append((a[:s], b[:s]))
+    return res
